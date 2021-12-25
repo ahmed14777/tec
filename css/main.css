@@ -1,0 +1,214 @@
+/* start variables */
+:root {
+    --main-color: #3d4bd2;
+}
+
+/* end variables */
+
+/* start global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* small */
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* medium */
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* large */
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start phone responsive solution  about the right space problem */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* end phone responsive solution  about the right space problem */
+
+}
+
+/* start header  */
+header .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo img {
+    width: 60px;
+}
+
+header .container nav {
+    flex: 1;
+}
+
+header .container nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+header .container nav ul li {
+    padding: 30px 15px;
+}
+
+header .container nav ul a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-weight: 300;
+    padding: 5px;
+    letter-spacing: 1px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+header .container nav ul li a:hover {
+    color: var(--main-color);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+@media (max-width:767px) {
+    header .container {
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    header .container .logo {
+        padding-bottom: 20px;
+    }
+
+    header .container ul {
+        flex-direction: column;
+    }
+
+}
+
+/* end header  */
+
+
+
+
+
+
+
+
+
+/* start landing  */
+.landing {
+    max-width: 100%;
+    min-height: calc(100vh - 104px);
+    background: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/ef047784bc6a5cf2b81a76a6/robotgradientintro2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: right;
+
+}
+
+.landing .container {
+    position: relative;
+    color: #fff;
+}
+
+.landing .container .ball {
+    position: absolute;
+    top: 20px;
+    width: 20%;
+    opacity: .9;
+}
+
+
+.landing .container .text {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-80%, -80%);
+    -webkit-transform: translate(-80%, -80%);
+    -moz-transform: translate(-80%, -80%);
+    -ms-transform: translate(-80%, -80%);
+    -o-transform: translate(-80%, -80%);
+}
+
+.landing .container .text h1 {
+    margin: 0;
+    font-size: 5rem;
+}
+
+.landing .container .text p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+@media (max-width:767px) {
+    .landing .container .ball {
+        display: none;
+    }
+
+    .landing .container .text h1 {
+        font-size: 40px;
+    }
+
+    .landing .container .text p {
+        font-size: 18px;
+    }
+
+    .landing .container .text {
+        margin-left: 25px;
+    }
+}
+
+/* end landing  */
