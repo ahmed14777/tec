@@ -149,7 +149,7 @@ header .container nav ul li a:hover {
 /* start landing  */
 .landing {
     max-width: 100%;
-    min-height: calc(100vh - 88px);
+    min-height: calc(100vh - 87px);
     background: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/ef047784bc6a5cf2b81a76a6/robotgradientintro2.jpg");
     background-size: cover;
     position: relative;
