@@ -1,6 +1,7 @@
 /* start variables */
 :root {
-    --main-color: #3d4bd2;
+    --text-color: #834496;
+    --main-color: #55f9fc;
 }
 
 /* end variables */
@@ -153,7 +154,7 @@ header .container nav ul li a:hover {
     background: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/ef047784bc6a5cf2b81a76a6/robotgradientintro2.jpg");
     background-size: cover;
     position: relative;
-    background-position-x: 60%;
+    background-position-x: 65%;
 
 }
 
@@ -212,3 +213,162 @@ header .container nav ul li a:hover {
 }
 
 /* end landing  */
+
+/* start human robotics section1 */
+.hum-section {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.hum-section .container .text {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.hum-section .container .text h5 {
+    font-size: 20px;
+}
+
+.hum-section .container .text h3 {
+    position: relative;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: var(--text-color);
+}
+
+.hum-section .container .text h3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    background-color: var(--main-color);
+    bottom: 5px;
+    z-index: -1;
+}
+
+.hum-section .container .text p {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.hum-section .container .text a {
+    width: fit-content;
+    display: block;
+    margin-top: 20px;
+    padding: 12px 35px;
+    border: 2px solid var(--main-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.hum-section .container .text a:hover {
+    background-color: var(--main-color);
+
+}
+
+.hum-section .container .image img:first-of-type {
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: -12vh;
+}
+
+
+
+.hum-section .container .image img:last-of-type {
+    position: absolute;
+    height: 370px;
+    position: absolute;
+    border-radius: 50%;
+    left: 45%;
+    transform: translate(20px, -156px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(20px, -156px);
+    -moz-transform: translate(20px, -156px);
+    -ms-transform: translate(20px, -156px);
+    -o-transform: translate(20px, -156px);
+}
+
+@media (max-width:767px) {
+    .hum-section .container .image img:first-of-type {
+        height: 450px;
+        position: absolute;
+        right: 0;
+        top: -12vh;
+    }
+
+    .hum-section .container .text {
+        padding-top: 390px;
+    }
+
+    .hum-section .container .text p {
+        width: 100%;
+    }
+
+    .hum-section .container .text a {
+        margin-bottom: 100px;
+    }
+
+    .hum-section .container .image img:last-of-type {
+        height: 270px;
+        transform: translate(-20px, -100px);
+        -webkit-transform: translate(-20px, -100px);
+        -moz-transform: translate(-20px, -100px);
+        -ms-transform: translate(-20px, -100px);
+        -o-transform: translate(-20px, -100px);
+    }
+
+}
+
+@media (max-width:450px) {
+    .hum-section .container .text h3 {
+        font-size: 28px;
+    }
+
+    .hum-section .container .text h5, .hum-section .container .text p {
+        font-size: 18px;
+    }
+
+    .hum-section .container .image img:first-of-type {
+        height: 400px;
+    }
+
+    .hum-section .container .image img:last-of-type {
+        height: 230px;
+        transform: translate(-100px, -90px);
+        -webkit-transform: translate(-100px, -90px);
+        -moz-transform: translate(-100px, -90px);
+        -ms-transform: translate(-100px, -90px);
+        -o-transform: translate(-100px, -90px);
+    }
+}
+
+/* end human robotics section1 */
+/* start human robotics section2 */
+.hum-section2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/386402209ab35bf6ac892d8d/bggradient.jpg);
+    background-size: cover;
+}
+
+/* end human robotics section2 */
