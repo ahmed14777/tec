@@ -21,6 +21,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
 }
 
 ul {
@@ -364,11 +365,125 @@ header .container nav ul li a:hover {
 
 /* end human robotics section1 */
 /* start human robotics section2 */
+
 .hum-section2 {
     width: 100%;
-    height: 100vh;
+    min-height: 90vh;
     background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/386402209ab35bf6ac892d8d/bggradient.jpg);
     background-size: cover;
+}
+
+.hum-section2 .container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.hum-section2 .container .images {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    justify-content: space-between;
+}
+
+.hum-section2 .container .images .img {
+    min-width: calc(calc(100% - 60px)/4);
+    background-color: rgb(107, 15, 15);
+    height: 20vh;
+}
+
+.hum-section2 .container .images .img1 {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f1c11a0ab3a65ce9a731bc46/788.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    height: 50%;
+    position: relative;
+    top: 20px;
+    align-self: center;
+}
+
+.hum-section2 .container .images .img2 {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/28a09a22432a5aa09842d3d8/Untitled8.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    height: 80%;
+    align-self: center;
+}
+
+.hum-section2 .container .images .img3 {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5c5f978cdea352f688c8617e/Untitled10.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    align-self: center;
+    height: 30vh;
+}
+
+.hum-section2 .container .images .img4 {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7ab364e65cfd5aeaaa7e0ab0/Untitled9.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    height: 60%;
+    position: relative;
+    bottom: 30px;
+    align-self: center;
+}
+
+.hum-section2 .container p {
+    width: 45%;
+    position: absolute;
+    right: 25px;
+    color: #fff;
+    bottom: 65px;
+    line-height: 1.8rem;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+@media (max-width:997px) {
+    .hum-section2 .container p {
+        margin-top: 50px;
+        bottom: 26px;
+        left: 15%;
+        font-size: 19px;
+        width: 80%;
+    }
+}
+
+@media (max-width:676px) {
+
+    body, html {
+        height: 100%;
+    }
+
+    .hum-section2 .container .images {
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .hum-section2 .container .images .img {
+        width: 250px;
+        margin-bottom: 40px;
+        height: 380px;
+    }
+
+    .hum-section2 .container .images .img1 {
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .hum-section2 .container .images .img3 {
+        height: 300px;
+    }
+
+    .hum-section2 .container .images .img4 {
+        margin-bottom: 100px;
+    }
 }
 
 /* end human robotics section2 */
