@@ -397,7 +397,7 @@ header .container nav ul li a:hover {
 }
 
 .hum-section2 .container .images .img1 {
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f1c11a0ab3a65ce9a731bc46/788.jpg);
+    background-image: url(../images/section2-1.jpeg);
     background-size: cover;
     background-position-x: 50%;
     height: 50%;
@@ -407,7 +407,7 @@ header .container nav ul li a:hover {
 }
 
 .hum-section2 .container .images .img2 {
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/28a09a22432a5aa09842d3d8/Untitled8.jpg);
+    background-image: url(../images/section2-2.jpeg);
     background-size: cover;
     background-position-x: 50%;
     height: 80%;
@@ -415,7 +415,7 @@ header .container nav ul li a:hover {
 }
 
 .hum-section2 .container .images .img3 {
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5c5f978cdea352f688c8617e/Untitled10.jpg);
+    background-image: url(../images/section2-3.jpeg);
     background-size: cover;
     background-position-x: 50%;
     align-self: center;
@@ -423,7 +423,7 @@ header .container nav ul li a:hover {
 }
 
 .hum-section2 .container .images .img4 {
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7ab364e65cfd5aeaaa7e0ab0/Untitled9.jpg);
+    background-image: url(../images/section2-4.jpeg);
     background-size: cover;
     background-position-x: 50%;
     height: 60%;
