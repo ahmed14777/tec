@@ -456,6 +456,24 @@ header .container nav ul li a:hover {
         font-size: 19px;
         width: 80%;
     }
+
+    .hum-section2 .container .images .img1 {
+        height: 50%;
+    }
+
+    .hum-section2 .container .images .img2 {
+        height: 40%;
+    }
+
+    .hum-section2 .container .images .img3 {
+        height: 30vh;
+    }
+
+    .hum-section2 .container .images .img4 {
+
+        height: 30%;
+
+    }
 }
 
 @media (max-width:676px) {
