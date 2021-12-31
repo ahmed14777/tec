@@ -15,6 +15,10 @@
     padding: 0;
 }
 
+body, html {
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -409,6 +413,7 @@ header .container nav ul li a:hover {
     position: relative;
     top: 20px;
     align-self: center;
+    z-index: 1;
 }
 
 .hum-section2 .container .images .img2 {
@@ -448,11 +453,33 @@ header .container nav ul li a:hover {
     font-weight: 300;
 }
 
+.hum-section2 .bubble {
+    width: 425px;
+    position: absolute;
+    top: -75px;
+    left: -12%;
+}
+
+.hum-section2 .ball {
+    width: 50px;
+    position: absolute;
+    top: 38px;
+    right: 0%;
+}
+
+/* start media section2 */
+@media (max-width:991px) {
+    .hum-section2 .bubble {
+        left: -16%;
+        width: 47%;
+    }
+}
+
 @media (max-width:997px) {
     .hum-section2 .container p {
         margin-top: 50px;
-        bottom: 26px;
-        left: 15%;
+        bottom: 10%;
+        left: 10%;
         font-size: 19px;
         width: 80%;
     }
@@ -474,12 +501,18 @@ header .container nav ul li a:hover {
         height: 30%;
 
     }
+
+
 }
+
+
 
 @media (max-width:676px) {
 
-    body, html {
-        height: 100%;
+
+
+    .hum-section2 .container p {
+        bottom: 1%;
     }
 
     .hum-section2 .container .images {
@@ -487,6 +520,7 @@ header .container nav ul li a:hover {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
+        margin-top: 30px;
     }
 
     .hum-section2 .container .images .img {
@@ -507,6 +541,22 @@ header .container nav ul li a:hover {
     .hum-section2 .container .images .img4 {
         margin-bottom: 100px;
     }
+
+    .hum-section2 .bubble {
+        width: 32%;
+        top: -35px;
+        left: 0;
+    }
 }
+
+@media (max-width:450px) {
+    .hum-section2 .bubble {
+        width: 30%;
+        top: 50px;
+        left: -6px;
+    }
+}
+
+/* end media section2 */
 
 /* end human robotics section2 */
