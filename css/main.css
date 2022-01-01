@@ -649,6 +649,8 @@ header .container nav ul li a:hover {
 /* end Robotic Technologies */
 .Robotic-Technologies2 {
     background-image: url(../images/background2.jpeg);
+    background-size: cover;
+
 }
 
 .Robotic-Technologies2 .container {
