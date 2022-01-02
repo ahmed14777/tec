@@ -74,7 +74,18 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 }
 
+/* end global rules */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
 /* start header  */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 header .container {
     position: relative;
     display: flex;
@@ -140,6 +151,10 @@ header .container nav ul li a:hover {
 
 }
 
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 /* end header  */
 
 
@@ -151,6 +166,10 @@ header .container nav ul li a:hover {
 
 
 /* start landing  */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 .landing {
     max-width: 100%;
     min-height: calc(100vh - 87px);
@@ -216,8 +235,18 @@ header .container nav ul li a:hover {
 }
 
 /* end landing  */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
 
 /* start human robotics section1 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 .hum-section {
     position: relative;
     padding-bottom: 60px;
@@ -328,6 +357,7 @@ header .container nav ul li a:hover {
     }
 
     .hum-section .container .text a {
+        padding: 18px;
         margin-bottom: 100px;
     }
 
@@ -344,7 +374,7 @@ header .container nav ul li a:hover {
 
 @media (max-width:450px) {
     .hum-section .container .text h3 {
-        font-size: 28px;
+        font-size: 27px;
     }
 
     .hum-section .container .text h5, .hum-section .container .text p {
@@ -366,7 +396,19 @@ header .container nav ul li a:hover {
 }
 
 /* end human robotics section1 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
+
+
 /* start human robotics section2 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 
 .hum-section2 {
     width: 100%;
@@ -537,7 +579,7 @@ header .container nav ul li a:hover {
     }
 
     .hum-section2 .container .images .img4 {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     .hum-section2 .bubble {
@@ -557,9 +599,21 @@ header .container nav ul li a:hover {
 
 /* end media section2 */
 
+
 /* end human robotics section2 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
+
 
 /* start Robotic Technologies */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 .Robotic-Technologies .container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -580,13 +634,35 @@ header .container nav ul li a:hover {
 }
 
 .Robotic-Technologies .container .cards {
-    display: flex;
-    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 30px 0;
 }
 
 .Robotic-Technologies .container .cards .card {
+    padding: 50px;
     margin: 30px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
 }
+
+.Robotic-Technologies .container .cards .card:hover {
+    transform: translateY(-20px);
+    background-color: var(--head-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
 
 .Robotic-Technologies .container .cards .card i {
     font-size: 50px;
@@ -598,6 +674,11 @@ header .container nav ul li a:hover {
     font-size: 30px;
     margin-bottom: 20px;
     color: var(--head-color);
+}
+
+.Robotic-Technologies .container .cards .card:hover h3,
+.Robotic-Technologies .container .cards .card:hover p {
+    color: #fff;
 }
 
 .Robotic-Technologies .container .cards .card p {
@@ -620,23 +701,20 @@ header .container nav ul li a:hover {
     }
 }
 
-@media (max-width:770px) {
-    .Robotic-Technologies .container img {
-        right: -16%;
-        width: 50%;
-
-    }
-}
-
 @media (max-width:676px) {
     .Robotic-Technologies .container .cards {
         text-align: center;
         flex-direction: column;
     }
 
+    .Robotic-Technologies .container .title {
+        margin-top: 84px;
+    }
+
     .Robotic-Technologies .container .title h2 {
-        text-align: center;
+        text-align: start;
         font-size: 38px;
+
     }
 
     .Robotic-Technologies .container img {
@@ -647,9 +725,17 @@ header .container nav ul li a:hover {
 }
 
 /* end Robotic Technologies */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 
 
 /* start Robotic Technologies 2*/
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 .Robotic-Technologies2 {
     background-image: url(../images/background2.jpeg);
     background-size: cover;
@@ -707,8 +793,18 @@ header .container nav ul li a:hover {
 }
 
 /* end Robotic Technologies 2*/
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
 
 /* start section of car concepts */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 .car {
     background-image: url(../images/car-background.jpeg);
     background-size: cover;
@@ -819,8 +915,122 @@ header .container nav ul li a:hover {
     }
 }
 
-
-
-
-
 /* end section of car concepts */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
+
+/* start tec-ai */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+.tec-ai .container .title {
+    margin: 50px 0;
+
+}
+
+.tec-ai .container .title h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tec-ai .container .title h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: var(--head-color);
+}
+
+.tec-ai .container .section {
+    position: relative;
+}
+
+.tec-ai .container .section .bubbles {
+    position: absolute;
+    width: 23%;
+    right: -15%;
+    top: -42vh;
+}
+
+.tec-ai .container .section .cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+@media (max-width:420px) {
+    .tec-ai .container .section .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width:997px) {
+    .tec-ai .container .section .cards {
+        gap: 100px;
+    }
+
+    .tec-ai .container .section .bubbles {
+        width: 45%;
+        right: -19%;
+        top: -34vh;
+    }
+}
+
+.tec-ai .container .section .cards .card {
+    padding: 20px;
+}
+
+.tec-ai .container .cards .card .images {
+    position: relative;
+}
+
+.tec-ai .container .cards .card .images img {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    /* bottom: 7vh; */
+
+
+}
+
+.tec-ai .container .cards .card .images::before {
+    content: "";
+    width: 60%;
+    display: block;
+    height: 60%;
+    top: -20%;
+    right: -4%;
+    background-image: url(../images/tec-ai-2.png);
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: -23px -26px 2px 2px var(--main-color);
+
+}
+
+
+.tec-ai .container .section .cards .card h3 {
+    color: var(--head-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.tec-ai .container .section .cards .card p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+
+/* end tec-ai */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
