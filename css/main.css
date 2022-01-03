@@ -923,11 +923,21 @@ header .container nav ul li a:hover {
 
 
 
+
+
+
+
 /* start tec-ai */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
+.tec-ai {
+    background-image: linear-gradient(white, #f8effa);
+}
+
+
+
 .tec-ai .container .title {
     margin: 50px 0;
 
@@ -987,6 +997,7 @@ header .container nav ul li a:hover {
 
 .tec-ai .container .cards .card .images {
     position: relative;
+    z-index: 1;
 }
 
 .tec-ai .container .cards .card .images img {
@@ -1027,6 +1038,11 @@ header .container nav ul li a:hover {
     font-weight: 300;
     line-height: 1.8em;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tec-ai .container .section .cards .card .img-text {
+    margin-bottom: 80px;
 }
 
 /* end tec-ai */
@@ -1034,3 +1050,229 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
+
+
+
+
+
+
+
+
+
+/* start tec-ai-2 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+.tec-ai-2 {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(../images/background-tec-ai-2.jpeg);
+    background-size: cover;
+}
+
+.tec-ai-2 .container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tec-ai-2 .container .comp {
+    margin-top: -50px;
+}
+
+.tec-ai-2 .container .images {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    justify-content: space-between;
+}
+
+.tec-ai-2 .container .images .img {
+    min-width: calc(calc(100% - 60px)/4);
+    background-color: rgb(107, 15, 15);
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tec-ai-2 .container .images .img1 {
+    background-image: url(../images/tec-ai-2-1.jpeg);
+    background-size: cover;
+    height: 60%;
+    position: relative;
+    top: -4vh;
+}
+
+.tec-ai-2 .container .images .img2 {
+    background-image: url(../images/tec-ai-2-2.jpeg);
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
+    position: relative;
+    top: -8vh;
+}
+
+.tec-ai-2 .container .images .img3 {
+    background-image: url(../images/tec-ai-2-3.jpeg);
+    background-size: cover;
+    background-position-x: center;
+    height: 48vh;
+    position: relative;
+    top: -5vh;
+}
+
+.tec-ai-2 .container .images .img4 {
+    background-image: url(../images/tec-ai-2-4.jpeg);
+    background-size: cover;
+    background-position-x: 20%;
+    height: 60%;
+    position: relative;
+    top: -8vh;
+}
+
+.tec-ai-2 .container p {
+    width: 50%;
+    position: absolute;
+    right: -10px;
+    color: #fff;
+    bottom: 10vh;
+    line-height: 1.8rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* start media section2 */
+@media (max-width:997px) {
+    .tec-ai-2 .container p {
+        bottom: 18vh;
+        padding: 20px 20px 0 0;
+    }
+
+    .tec-ai-2 .container .images .img1 {
+        height: 40%;
+    }
+
+    .tec-ai-2 .container .images .img2 {
+        height: 85%;
+
+    }
+
+    .tec-ai-2 .container .images .img3 {
+        height: 36vh;
+    }
+
+    .tec-ai-2 .container .images .img4 {
+        height: 40%;
+    }
+
+}
+
+
+@media (max-width:676px) {
+    .tec-ai-2 .container p {
+        width: 90%;
+    }
+
+    .tec-ai-2 .container .images {
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .tec-ai-2 .container .images .img {
+        width: 60%;
+        height: 50vh;
+    }
+
+    .tec-ai-2 .container .images .img1 {
+        margin-top: 50px;
+    }
+
+    .tec-ai-2 .container .images .img2 {
+        margin-top: 15vh;
+    }
+
+
+    .tec-ai-2 .container .images .img4 {
+        margin-bottom: 24vh;
+        margin-top: 15vh;
+    }
+
+    .tec-ai-2 .container p {
+        bottom: 15vh;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:440px) {
+    .tec-ai-2 .container .images .img {
+        height: 35vh;
+    }
+}
+
+/* end tec-ai-2 */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+footer {
+
+    background-color: #ff4892;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+footer .container .social ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .social ul a {
+    font-size: 40px;
+    margin: 0 20px;
+    color: #fff;
+}
+
+footer ul li:first-child a:hover {
+    color: #4267B2;
+}
+
+footer ul li:nth-child(2) a:hover {
+    color: #00acee;
+}
+
+footer ul li:last-child a:hover {
+    color: #4c68d7;
+}
