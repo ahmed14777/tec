@@ -649,21 +649,6 @@ header .container nav ul li a:hover {
     -o-transition: all 300ms;
 }
 
-.Robotic-Technologies .container .cards .card:hover {
-    transform: translateY(-20px);
-    background-color: var(--head-color);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -webkit-transform: translateY(-20px);
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -o-transform: translateY(-20px);
-}
-
-
 .Robotic-Technologies .container .cards .card i {
     font-size: 50px;
     margin-bottom: 30px;
@@ -676,10 +661,6 @@ header .container nav ul li a:hover {
     color: var(--head-color);
 }
 
-.Robotic-Technologies .container .cards .card:hover h3,
-.Robotic-Technologies .container .cards .card:hover p {
-    color: #fff;
-}
 
 .Robotic-Technologies .container .cards .card p {
     font-size: 18px;
@@ -1228,6 +1209,13 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* start footer */
 footer {
 
     background-color: #ff4892;
@@ -1236,27 +1224,20 @@ footer {
 }
 
 footer .container {
-    padding: 20px;
+    padding: 20px 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-footer .container p {
-    width: 100%;
-    margin-bottom: 20px;
-    line-height: 1.6em;
-    font-size: 18px;
-    padding: 15px;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
+
 
 footer .container .social ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 footer .container .social ul a {
@@ -1276,3 +1257,28 @@ footer ul li:nth-child(2) a:hover {
 footer ul li:last-child a:hover {
     color: #4c68d7;
 }
+
+footer .container p {
+    width: 100%;
+    line-height: 1.6em;
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+footer .container p span:first-of-type {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+footer .container p span:last-of-type {
+    font-weight: 800;
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* end footer */
