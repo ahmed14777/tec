@@ -86,40 +86,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
-@keyframes btn-animate {
-    30% {
-        transform: translateY(-100px);
-        -webkit-transform: translateY(-100px);
-        -moz-transform: translateY(-100px);
-        -ms-transform: translateY(-100px);
-        -o-transform: translateY(-100px);
-    }
-
-    60% {
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-    }
-
-    85% {
-        transform: translateY(-80px);
-        -webkit-transform: translateY(-80px);
-        -moz-transform: translateY(-80px);
-        -ms-transform: translateY(-80px);
-        -o-transform: translateY(-80px);
-    }
-
-    100% {
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-    }
-
-}
 
 @media (min-width:767px) {
     header {
@@ -133,6 +99,15 @@ only screen and (min-device-pixel-ratio: 1.5) {
         box-shadow: 1px 1px 20px 0px var(--main-color);
     }
 
+    #menu {
+        display: none;
+    }
+
+}
+
+#menu {
+    color: var(--head-color);
+    margin-bottom: 20px;
 }
 
 header .container {
