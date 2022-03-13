@@ -15,16 +15,17 @@
     padding: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     min-height: 100vh;
 }
-
 
 ul {
     list-style: none;
@@ -38,21 +39,21 @@ ul {
 }
 
 /* small */
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
 
 /* medium */
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
 
 /* large */
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
@@ -60,10 +61,9 @@ ul {
 
 /* start phone responsive solution  about the right space problem */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
     html,
     body {
         width: 100%;
@@ -71,7 +71,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 
     /* end phone responsive solution  about the right space problem */
-
 }
 
 /* end global rules */
@@ -80,14 +79,13 @@ only screen and (min-device-pixel-ratio: 1.5) {
 /* --------------------------- */
 /* --------------------------- */
 
-
 /* start header  */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 
-@media (min-width:767px) {
+@media (min-width: 767px) {
     header {
         background-color: #fff;
         position: fixed;
@@ -102,7 +100,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     #menu {
         display: none;
     }
-
 }
 
 #menu {
@@ -143,11 +140,11 @@ header .container nav ul a {
     font-weight: 300;
     padding: 5px;
     letter-spacing: 1px;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 header .container nav ul li a:hover {
@@ -159,7 +156,7 @@ header .container nav ul li a:hover {
     -o-transform: translateY(-10px);
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     header .container {
         padding-top: 30px;
         flex-direction: column;
@@ -172,7 +169,6 @@ header .container nav ul li a:hover {
     header .container ul {
         flex-direction: column;
     }
-
 }
 
 /* --------------------------- */
@@ -180,14 +176,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 /* end header  */
-
-
-
-
-
-
-
-
 
 /* start landing  */
 /* --------------------------- */
@@ -202,7 +190,6 @@ header .container nav ul li a:hover {
     position: relative;
     background-position-x: 65%;
     padding-top: 10vh;
-
 }
 
 .landing .container {
@@ -214,9 +201,8 @@ header .container nav ul li a:hover {
     position: absolute;
     top: 20px;
     width: 20%;
-    opacity: .9;
+    opacity: 0.9;
 }
-
 
 .landing .container .text {
     width: 60%;
@@ -241,7 +227,7 @@ header .container nav ul li a:hover {
     line-height: 1.5em;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .landing .container .ball {
         display: none;
     }
@@ -264,8 +250,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
-
-
 
 /* start human robotics section1 */
 /* --------------------------- */
@@ -326,16 +310,15 @@ header .container nav ul li a:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .hum-section .container .text a:hover {
     background-color: var(--main-color);
-
 }
 
 .hum-section .container .image img:first-of-type {
@@ -344,8 +327,6 @@ header .container nav ul li a:hover {
     right: 0;
     top: -12vh;
 }
-
-
 
 .hum-section .container .image img:last-of-type {
     position: absolute;
@@ -365,7 +346,7 @@ header .container nav ul li a:hover {
     -o-transform: translate(20px, -156px);
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .hum-section .container .image img:first-of-type {
         height: 450px;
         position: absolute;
@@ -394,15 +375,15 @@ header .container nav ul li a:hover {
         -ms-transform: translate(-20px, -100px);
         -o-transform: translate(-20px, -100px);
     }
-
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
     .hum-section .container .text h3 {
         font-size: 27px;
     }
 
-    .hum-section .container .text h5, .hum-section .container .text p {
+    .hum-section .container .text h5,
+    .hum-section .container .text p {
         font-size: 18px;
     }
 
@@ -426,9 +407,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 
-
-
-
 /* start human robotics section2 */
 /* --------------------------- */
 /* --------------------------- */
@@ -448,9 +426,7 @@ header .container nav ul li a:hover {
     padding-bottom: 50px;
 }
 
-
 .hum-section2 .container .images {
-
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -460,7 +436,7 @@ header .container nav ul li a:hover {
 }
 
 .hum-section2 .container .images .img {
-    min-width: calc(calc(100% - 60px)/4);
+    min-width: calc(calc(100% - 60px) / 4);
     background-color: rgb(107, 15, 15);
     height: 20vh;
     border-radius: 10px;
@@ -533,14 +509,14 @@ header .container nav ul li a:hover {
 }
 
 /* start media section2 */
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .hum-section2 .bubble {
         left: -16%;
         width: 47%;
     }
 }
 
-@media (max-width:997px) {
+@media (max-width: 997px) {
     .hum-section2 .container p {
         margin-top: 50px;
         bottom: 10%;
@@ -562,20 +538,11 @@ header .container nav ul li a:hover {
     }
 
     .hum-section2 .container .images .img4 {
-
         height: 30%;
-
     }
-
-
 }
 
-
-
-@media (max-width:676px) {
-
-
-
+@media (max-width: 676px) {
     .hum-section2 .container p {
         bottom: 1%;
     }
@@ -614,7 +581,7 @@ header .container nav ul li a:hover {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
     .hum-section2 .bubble {
         width: 30%;
         top: 50px;
@@ -624,15 +591,11 @@ header .container nav ul li a:hover {
 
 /* end media section2 */
 
-
 /* end human robotics section2 */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
-
-
-
 
 /* start Robotic Technologies */
 /* --------------------------- */
@@ -686,7 +649,6 @@ header .container nav ul li a:hover {
     color: var(--head-color);
 }
 
-
 .Robotic-Technologies .container .cards .card p {
     font-size: 18px;
     line-height: 1.6em;
@@ -700,14 +662,14 @@ header .container nav ul li a:hover {
     right: -16%;
 }
 
-@media (max-width:997px) {
+@media (max-width: 997px) {
     .Robotic-Technologies .container img {
         right: -16%;
         width: 50%;
     }
 }
 
-@media (max-width:676px) {
+@media (max-width: 676px) {
     .Robotic-Technologies .container .cards {
         text-align: center;
         flex-direction: column;
@@ -720,7 +682,6 @@ header .container nav ul li a:hover {
     .Robotic-Technologies .container .title h2 {
         text-align: start;
         font-size: 38px;
-
     }
 
     .Robotic-Technologies .container img {
@@ -736,7 +697,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 
-
 /* start Robotic Technologies 2*/
 /* --------------------------- */
 /* --------------------------- */
@@ -745,7 +705,6 @@ header .container nav ul li a:hover {
 .Robotic-Technologies2 {
     background-image: url(../images/background2.jpeg);
     background-size: cover;
-
 }
 
 .Robotic-Technologies2 .container {
@@ -789,12 +748,10 @@ header .container nav ul li a:hover {
     top: -8vh;
 }
 
-@media (max-width:770px) {
-
+@media (max-width: 770px) {
     .Robotic-Technologies2 .container img {
         position: absolute;
         left: -6%;
-
     }
 }
 
@@ -803,8 +760,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
-
-
 
 /* start section of car concepts */
 /* --------------------------- */
@@ -822,8 +777,6 @@ header .container nav ul li a:hover {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 100px;
 }
-
-
 
 .car .container .images {
     position: relative;
@@ -877,13 +830,13 @@ header .container nav ul li a:hover {
     width: fit-content;
 }
 
-
-@media (max-width:400px) {
+@media (max-width: 400px) {
     .car .container {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     }
 
-    .car .container .image, .car .container .text {
+    .car .container .image,
+    .car .container .text {
         width: 70%;
     }
 
@@ -897,21 +850,19 @@ header .container nav ul li a:hover {
         bottom: 22vh;
         left: 25%;
     }
-
 }
 
-@media (max-width:770px) {
+@media (max-width: 770px) {
     .car .container {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }
 
     .car .container .text h3 {
         font-size: 40px;
-
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     .car .container {
         gap: 0;
     }
@@ -927,12 +878,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 
-
-
-
-
-
-
 /* start tec-ai */
 /* --------------------------- */
 /* --------------------------- */
@@ -942,11 +887,8 @@ header .container nav ul li a:hover {
     background-image: linear-gradient(white, #f8effa);
 }
 
-
-
 .tec-ai .container .title {
     margin: 50px 0;
-
 }
 
 .tec-ai .container .title h5 {
@@ -978,14 +920,14 @@ header .container nav ul li a:hover {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
-@media (max-width:420px) {
+@media (max-width: 420px) {
     .tec-ai .container .section .cards {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     }
 }
 
-@media (max-width:997px) {
+@media (max-width: 997px) {
     .tec-ai .container .section .cards {
         gap: 100px;
     }
@@ -1011,8 +953,6 @@ header .container nav ul li a:hover {
     position: relative;
     z-index: -1;
     /* bottom: 7vh; */
-
-
 }
 
 .tec-ai .container .cards .card .images::before {
@@ -1028,9 +968,7 @@ header .container nav ul li a:hover {
     position: absolute;
     z-index: 2;
     box-shadow: -23px -26px 0px 2px var(--main-color);
-
 }
-
 
 .tec-ai .container .section .cards .card h3 {
     color: var(--head-color);
@@ -1057,14 +995,6 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 
-
-
-
-
-
-
-
-
 /* start tec-ai-2 */
 /* --------------------------- */
 /* --------------------------- */
@@ -1089,7 +1019,6 @@ header .container nav ul li a:hover {
 }
 
 .tec-ai-2 .container .images {
-
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -1099,7 +1028,7 @@ header .container nav ul li a:hover {
 }
 
 .tec-ai-2 .container .images .img {
-    min-width: calc(calc(100% - 60px)/4);
+    min-width: calc(calc(100% - 60px) / 4);
     background-color: rgb(107, 15, 15);
     height: 20vh;
     border-radius: 10px;
@@ -1155,9 +1084,8 @@ header .container nav ul li a:hover {
     font-weight: 300;
 }
 
-
 /* start media section2 */
-@media (max-width:997px) {
+@media (max-width: 997px) {
     .tec-ai-2 .container p {
         bottom: 18vh;
         padding: 20px 20px 0 0;
@@ -1169,7 +1097,6 @@ header .container nav ul li a:hover {
 
     .tec-ai-2 .container .images .img2 {
         height: 85%;
-
     }
 
     .tec-ai-2 .container .images .img3 {
@@ -1179,11 +1106,9 @@ header .container nav ul li a:hover {
     .tec-ai-2 .container .images .img4 {
         height: 40%;
     }
-
 }
 
-
-@media (max-width:676px) {
+@media (max-width: 676px) {
     .tec-ai-2 .container p {
         width: 90%;
     }
@@ -1211,7 +1136,6 @@ header .container nav ul li a:hover {
         margin-top: 15vh;
     }
 
-
     .tec-ai-2 .container .images .img4 {
         margin-bottom: 24vh;
         margin-top: 15vh;
@@ -1223,7 +1147,7 @@ header .container nav ul li a:hover {
     }
 }
 
-@media (max-width:440px) {
+@media (max-width: 440px) {
     .tec-ai-2 .container .images .img {
         height: 35vh;
     }
@@ -1235,14 +1159,12 @@ header .container nav ul li a:hover {
 /* --------------------------- */
 /* --------------------------- */
 
-
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 /* start footer */
 footer {
-
     background-color: #ff4892;
     color: #fff;
     padding: 20px;
@@ -1255,8 +1177,6 @@ footer .container {
     justify-content: center;
     align-items: center;
 }
-
-
 
 footer .container .social ul {
     display: flex;
@@ -1272,7 +1192,7 @@ footer .container .social ul a {
 }
 
 footer ul li:first-child a:hover {
-    color: #4267B2;
+    color: #4267b2;
 }
 
 footer ul li:nth-child(2) a:hover {
